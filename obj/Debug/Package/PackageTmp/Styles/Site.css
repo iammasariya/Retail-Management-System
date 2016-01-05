@@ -1,0 +1,740 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+.headermod
+{
+    height: 300px;
+    width:1920px;
+}
+
+.Position1
+{
+    position:absolute;
+    z-index:1;
+    top:262px;
+    left:515px;
+    width: 158px;
+    outline:0;
+    outline-color:transparent;
+    outline-style:none;}
+
+
+
+.ErrorMessage1
+{
+    font-family:Tahoma;
+    font-weight:bolder;
+    font-size:20px;
+    color:Red;
+    position:absolute;
+    left:725px;
+    top:262px
+}
+
+.ErrorMessage2
+{
+    font-family:Tahoma;
+    font-weight:bolder; 
+    font-size:20px;
+    color:Red;
+    position:absolute;
+    left:725px;
+    top:354px
+}
+
+
+
+.HomeButton
+{
+    position:absolute;
+    top:3px;
+    left:603px;
+    z-index:1;
+}
+
+
+
+.ReportsButton
+{
+    position:absolute;
+    top:8px;
+    left:643px;
+    right: 264px;
+    z-index:1;
+}
+
+
+.SystemTime
+{
+    z-index:1;
+    position:absolute;
+    left:900px;
+    top:5px;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    font-family: "Myriad Pro";
+    height: 23px;
+    width: 255px;
+    font-size: medium;
+}
+
+.HomeSearchButton
+{
+    z-index:1;
+    position:absolute;
+    left:1140px;
+    top:4px;
+    
+}
+
+.SearchDropDown
+{
+    z-index:1;
+    position:absolute;
+    left:760px;
+    top:4px;
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 0px 0 #fff, 0 -1px #fff inset;
+    -moz-box-shadow: 0 0px 0 #fff, 0 -1px #fff inset;
+    box-shadow: 0 0px 0 #fff, 0 -1px #fff inset;
+    background: #d1cfcf;
+    color:black;
+    border:none;
+    outline:none;
+    display: inline-block;
+    cursor:pointer;
+    text-shadow: 1px 0px 0px #fff , 0px 1px 0px #fff, -1px 0px 0px #fff, 
+  0px -1px 0px #fff, 1px 4px 5px #fff;
+  font-family: "Myriad Pro";
+  font-weight:bold;
+  -moz-appearance:none;
+  appearance:none;
+  -webkit-appearance:none;
+    
+}
+
+.Placeholder1
+{
+    background-color:#cecece;
+    position:absolute;
+    left:42px;
+    top:183px;
+    height:99px;
+    width:170px;
+   -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+.ReportsScreen
+{
+ position:absolute;
+    left:21px;
+    top:85px;
+    height:695px;
+    width:300px;   
+}
+.Rod
+{
+    position:absolute;
+    left:602px;
+    top:309px
+}
+
+
+.DetailedReports
+{
+ position:absolute;
+    left:21px;
+    top:689px;
+    height:478px;
+    width:802px;   
+}
+.Sidebar
+{ 
+    background-color:#cecece;
+    position:absolute;
+    left:865px;
+    top:34px;
+    height:695px;
+    width:300px;
+    -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    
+    
+}
+
+
+
+
+.Placeholder2
+{
+    background-color:#cecece;
+    position:absolute;
+    left:344px;
+    top:180px;
+    height:99px;
+    width:181px;
+   -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+.Placeholder8
+{
+    background-color:#cecece;
+    position:absolute;
+    left:619px;
+    top:180px;
+    height:99px;
+    width:181px;
+   -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+
+
+.Placeholder3
+{
+    background-color:#cecece;
+    position:absolute;
+    left:27px;
+    top:408px;
+    height:99px;
+    width:180px;
+    -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+.Placeholder4
+{
+    background-color:#cecece;
+    position:absolute;
+    left:344px;
+    top:408px;
+    height:99px;
+    width:180px;
+   -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+.Placeholder5
+{
+    background-color:#cecece;
+    position:absolute;
+    left:27px;
+    top:658px;
+    height:99px;
+    width:180px;
+    -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+.Placeholder6
+{
+    background-color:#cecece;
+    position:absolute;
+    left:344px;
+    top:660px;
+    height:99px;
+    width:180px;
+  -webkit-box-shadow:0 0 5px black; 
+    -moz-box-shadow: 0 0 5px black; 
+    box-shadow:0 0 5px black;
+    border-radius:4px;
+   
+}
+
+.HorizontalLine
+{
+-webkit-box-shadow: 0px 0px 15px #dddddd;
+-moz-box-shadow: 0px 0px 15px #dddddd;
+box-shadow: 0px 0px 15px #dddddd;
+
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+
+.DynamicData
+{
+    text-align:right;
+    font-family:Myriad Pro;
+    font-weight:bold;
+    z-index:1;
+  
+        
+}
+
+.Labels
+{
+    font-family:Myriad Pro;
+    font-weight:bold;
+    z-index:1;
+    line-height:15px;
+    text-align:left;
+    height: 45px;
+    width: 131px;
+    font-size: xx-large;
+    color:#727272;
+    
+}
+    
+.Labels2
+{
+      font-family:Myriad Pro;
+    font-weight:bold;
+    z-index:1;
+    line-height:15px;
+    text-align:left;
+    height: 45px;
+    width: 131px;
+    font-size:  medium;
+    color:#727272;
+}
+
+
+.SearchField
+{
+    z-index:1;
+    position:absolute;
+    left:950px;
+    top:5px;
+    outline:0;
+    outline-color:transparent;
+    outline-style:none;
+    color:White;
+    font-family:Myriad Pro;
+    font-size: small;
+}
+
+.DropDownArrow
+{
+    position:relative;
+   content:'<>';
+    font:11px "Consolas", monospace;
+    color:#fff;
+    z-index:1;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    left:890px; top:8px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+
+
+.Dashboard
+{
+    position:absolute;
+    top:169px;
+    left:102px;
+    -moz-box-shadow: 0 0 30px #fff;
+    -webkit-box-shadow: 0 0 30px #fff;
+    box-shadow: 2px 3px 30px #fff;
+    margin-bottom:50px;
+    height: 1206px;
+}
+
+.ReportsButton
+{
+    position:absolute;
+    top:-2px;
+    left:727px;
+    z-index:1;
+    height: 48px;
+    width: 115px;
+}
+.StrategyButton
+{
+    position:absolute;
+    top:22px;
+    left:927px;
+    z-index:1;
+}
+
+.InventoryButton
+{
+    position:absolute;
+    top:22px;
+    left:1089px;
+    z-index:1;
+}
+
+.LogOutButton
+{
+    position:absolute;
+    top:22px;
+    left:1251px;
+    z-index:1;
+}
+
+
+
+.Position2
+{
+    position:absolute;
+    z-index:1;
+    top:354px;
+    left:515px;
+    width: 158px;
+    outline:0;
+    outline-color:transparent;
+    outline-style:none
+}
+
+
+
+
+.Positioner1
+{
+    position:absolute;
+    top:213px;
+    left:418px;
+    z-index:1;
+}
+
+.TextPositioner1
+{
+    position:relative;
+    top:-203px;
+    left:-223px;
+    z-index:1;
+    width: 154px;
+    outline-color: transparent;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.Positioner2
+{
+    position:absolute;
+    top:313px;
+    left:418px;
+    z-index:1;
+}
+
+.TextPositioner2
+{
+    position:relative;
+    top:-110px;
+    left:450px;
+    z-index:1;
+    width: 151px;
+    outline-color: transparent;
+    outline-style: none;
+    outline-width: 0;
+}
+
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    height: 768px;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}

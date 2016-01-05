@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RMS3.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    
+    <div style="padding: 0px; margin: 0px; width: 1366px; height: 118px;">
+        <asp:ImageButton ID="HomeButton" runat="server" CssClass="HomeButton" 
+            ImageUrl="~/Images/HomeButtonFinal.jpg" 
+            onclick="HomeButton_Click" />
+        <asp:ImageButton ID="ReportsButton" runat="server" CssClass="ReportsButton" 
+            ImageUrl="~/Images/Reports.jpg" onclick="ReportsButton_Click" />
+        <asp:ImageButton ID="ImageButton1" runat="server" CssClass="InventoryButton" ImageUrl="~/Images/Inventory.jpg" 
+            onclick="ImageButton1_Click1" />
+        <asp:ImageButton ID="ImageButton2" runat="server" CssClass="StockButton" 
+            ImageUrl="~/Images/Stock.jpg" onclick="ImageButton2_Click" />
+        <asp:ImageButton ID="ImageButton3" runat="server" CssClass="OrdersButton" 
+            ImageUrl="~/Images/Orders.png" onclick="ImageButton3_Click" />
+        <asp:ImageButton ID="ImageButton4" runat="server" CssClass="StrategyButton" 
+            ImageUrl="~/Images/Strategy.jpg" onclick="ImageButton4_Click" />
+        <asp:Image ID="Image1" runat="server" 
+            ImageUrl="~/Images/SiteHeaderFinal1.png" />
+        <br />
+        <br />
+    </div>
+    
+    <div style="margin-top: 0px; width: 1366px; height: 2000px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+    </body>
+</html>

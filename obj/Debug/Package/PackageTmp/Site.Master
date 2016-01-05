@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="RMS3.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    
+    <div style="padding: 0px; margin: 0px; width: 1366px; height: 118px;">
+        <asp:ImageButton ID="HomeButton" runat="server" CssClass="HomeButton" 
+            ImageUrl="~/Images/HomeButtonFinal.jpg" Height="42px" 
+            onclick="HomeButton_Click" Width="91px" />
+        <asp:ImageButton ID="ReportsButton" runat="server" CssClass="ReportsButton" 
+            Height="53px" ImageUrl="~/Images/Reports.jpg" onclick="ReportsButton_Click" 
+            Width="114px" />
+        <asp:Image ID="Image1" runat="server" 
+            ImageUrl="~/Images/SiteHeaderFinal1.png" />
+        <br />
+        <br />
+    </div>
+    
+    <div style="margin-top: 0px; width: 1366px; height: 2000px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+    </body>
+</html>
